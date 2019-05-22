@@ -1,0 +1,12 @@
+{
+  "name": "react-use-script",
+  "version": "0.0.1",
+  "description": "hook for load scripts",
+  "main": "index.js",
+  "module": "index.js",
+  "author": "Ivakhnenko Dmitry <jeetiss@ya.ru>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
