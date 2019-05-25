@@ -1,5 +1,5 @@
 {
-  "name": "react-use-script",
+  "name": "@jeetiss/react-use-script",
   "version": "0.0.1",
   "description": "hook for load scripts",
   "main": "index.js",
