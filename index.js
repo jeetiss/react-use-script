@@ -12,7 +12,7 @@ const useLatestRef = value => {
 
 // eslint-disable-next-line object-property-newline
 const merge = (state, newState) => ({...state, ...newState})
-const runRef = (ref, args) => ref.current && ref.current(...args)
+const runRef = (ref, args = []) => ref.current && ref.current(...args)
 
 export const useScript = (url, {onLoad, onError, onComplete} = {}) => {
   const [{loaded, error}, setState] = useReducer(merge, {
